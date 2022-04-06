@@ -10,7 +10,7 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        var name = findViewById<TextView>(R.id.txtName)
+        var name = findViewById<TextView>(R.id.txtName) // variable (변경 불가능)
 
         name.text = "LimYeonjy"      // name의 text로 들어감
 
@@ -19,7 +19,7 @@ class MainActivity : AppCompatActivity() {
         var score = findViewById<TextView>(R.id.score)
         score.text = num.toString()
 
-        val btn = findViewById<Button>(R.id.btnPlus)
+        val btn = findViewById<Button>(R.id.btnPlus)    // valuable (변경 가능)
 
         btn.setOnClickListener {
             num ++
