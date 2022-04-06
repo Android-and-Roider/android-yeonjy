@@ -26,4 +26,5 @@ class MainActivity : AppCompatActivity() {
             score.text = num.toString()
         }
     }
+
 }
