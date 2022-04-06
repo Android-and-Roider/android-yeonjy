@@ -16,6 +16,7 @@ class MainActivity : AppCompatActivity() {
 
         // 더해질 숫자
         var num = 0
+        var num1 = 0;
         var score = findViewById<TextView>(R.id.score)
         score.text = num.toString()
 
